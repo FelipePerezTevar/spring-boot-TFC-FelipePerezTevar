@@ -33,8 +33,8 @@ public class ProductoColorController {
 
 
     @GetMapping("/filtro")
-    public ResponseEntity<List<Productocolor>> listFiltro2(@RequestParam("diametro") Integer diametro, @RequestParam("alto")Integer alto,
-                                                           @RequestParam("ancho") Integer ancho, @RequestParam("tipo") String tipo, @RequestParam("modelo") String modelo){
+    public ResponseEntity<List<Productocolor>> listFiltro2(@RequestParam("diametro") Double diametro, @RequestParam("alto")Double alto,
+                                                           @RequestParam("ancho") Double ancho, @RequestParam("tipo") String tipo, @RequestParam("modelo") String modelo){
 
         if(diametro == 0){
             diametro = null;

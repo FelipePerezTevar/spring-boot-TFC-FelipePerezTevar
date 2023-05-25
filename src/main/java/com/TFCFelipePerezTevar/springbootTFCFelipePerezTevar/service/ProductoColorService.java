@@ -28,7 +28,7 @@ public class ProductoColorService {
 
 
 
-    public List<Productocolor> findByProducto2(Integer diametro, Integer alto, Integer ancho, String tipo, String modelo){
+    public List<Productocolor> findByProducto2(Double diametro, Double alto, Double ancho, String tipo, String modelo){
 
         EntityManager em = entityManagerFactory.createEntityManager();
         String jpql = "select pc from Productocolor pc inner join Producto p on pc.producto.id = p.id inner join Medida me on me.producto.id = p.id inner join Tipo t on p.tipo.id = t.id inner join Modelo mo on p.modelo.id = mo.id where 1=1 ";
