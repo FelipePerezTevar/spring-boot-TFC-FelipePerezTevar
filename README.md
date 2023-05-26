@@ -44,11 +44,15 @@ API de Spring para el proyecto final de ciclo de Cerámicas Doli.
 
 ## Requisitos
 
-Que funcione el ordenador
+  1. Tener Java instalado en el dispositivo
+
+   *Aunque gran parte de los ordenadores tengan ya instalado Java por defecto, es posible que no lo tenga. Para instalar Java en su ordenador, debe abrir su navegador de confianza buscar "descargar java (el sistema operativo que este utilizando)" y de los primeros enlaces saldrá la página oficial de Java con el sistema operativo buscado.*
 
 ## Despliegue
 
-Dandole a start
+  1. Descargar el proyecto desde Github y descomprimirlo
+  2. Abrir un terminal y situarse en la carpeta donde se encuentra el programa descomprimido
+  3. Ejecutar el comando que se encuentra  
 
 ## Tecnologias
 
