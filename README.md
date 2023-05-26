@@ -38,6 +38,7 @@ API de Spring para el proyecto final de ciclo de Cerámicas Doli.
 
  > /modelo/lista
 
+ <br/>
 
   ***NOTAS***
 
@@ -50,6 +51,8 @@ API de Spring para el proyecto final de ciclo de Cerámicas Doli.
 ## Requisitos
 
   1. Tener Java instalado en el dispositivo
+
+<br/>
 
    ***NOTAS***
 
